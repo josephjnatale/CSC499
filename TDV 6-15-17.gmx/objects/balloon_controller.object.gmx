@@ -25,25 +25,26 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.words[1] = "Accountability";
-global.words[2] = "Blaming";
-global.words[3] = "Safety";
-global.words[4] = "Jealousy";
-global.words[5] = "Trust";
-global.words[6] = "Anger"
-global.words[7] = "Cooperation"
-global.words[8] = "Possesive"
+            <string>count=0;
+alarm[0]=14;
+image_speed = 0;
+image_index = 0;
 
-
-
-
-
+words[0] = "Control";
+words[1] = "Accountability";
+words[2] = "Blaming";
+words[3] = "Safety";
+words[4] = "Jealousy";
+words[5] = "Trust";
+words[6] = "Anger";
+words[7] = "Cooperation";
+words[8] = "Possesive";
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -60,10 +61,70 @@ global.words[8] = "Possesive"
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>   draw_set_color(c_blue);
-   draw_set_font(fnt);
-   draw_text(mouse_x, mouse_y, "kaboom");
-    
+            <string>alarm[0] = 18;
+position = floor(random(3));
+b_color = floor(random(4));
+
+
+global.speeds = -10;
+y=900;
+
+randword = random(9);
+word = words[randword];
+
+if(randword%2=0) wordgood = true;
+else  wordgood= false;
+
+
+x_pos = -1;
+
+if(position == 0){
+    x_pos = (room_width/3)/2;  
+} else if(position == 1) {
+    x_pos = room_width/2;
+} else { 
+    x_pos = (room_width/2) + (room_width/3);
+}
+
+if(b_color == 0){
+    instance_create(x_pos, 900, obj_balloon1);
+}
+if(b_color == 1){
+    instance_create(x_pos, 900, obj_balloon2);
+}
+if(b_color == 2){
+    instance_create(x_pos, 900, obj_balloon3);
+}
+if(b_color == 3){
+    instance_create(x_pos, 900, obj_balloon4);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(count%10005=0){
+ 
+}
+else
+count++;
 </string>
           </argument>
         </arguments>

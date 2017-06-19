@@ -25,8 +25,44 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
+            <string>alarm[0] = 18;
+global.position = floor(random(3));
+global.b_color = floor(random(4));
+
+words[0] = "Control";
+words[1] = "Accountability";
+words[2] = "Blaming";
+words[3] = "Safety";
+words[4] = "Jealousy";
+words[5] = "Trust";
+words[6] = "Anger";
+words[7] = "Cooperation";
+words[8] = "Possesive";
+
+global.speeds = -15;
+y=900;
+
+randword = random(9);
+word = words[randword];
+
+if(randword%2=0) wordgood = true;
+else  wordgood= false;
+
+x_pos = -1;
+
+if(global.position == 0){
+    x_pos = (room_width/3)/2;  
+} else if(global.position == 1) {
+    x_pos = room_width/2;
+} else { 
+    x_pos = (room_width/2) + (room_width/3);
+}
+
+
+
+image_speed = 0;
 image_index = 0;
+
 </string>
           </argument>
         </arguments>
@@ -50,8 +86,16 @@ image_index = 0;
           <argument>
             <kind>1</kind>
             <string>vspeed = global.speeds
-if(y &lt;0 || image_index == 6) {
+if(y &lt; 0) {
+ //if(wordgood = false) health-1;
+ 
     instance_destroy();
+}
+
+if(image_index == 6) {
+  //if(wordgood=true) health-1;
+    instance_destroy();
+
 }
 </string>
           </argument>
@@ -76,6 +120,32 @@ if(y &lt;0 || image_index == 6) {
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.5;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+draw_set_valign(fa_bottom);
+draw_set_halign(fa_left);
+draw_text( x, y, word);
 </string>
           </argument>
         </arguments>

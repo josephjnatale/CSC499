@@ -49,10 +49,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = global.create;
+            <string>alarm[0] = 18;
 global.position = floor(random(3));
-global.b_color = floor(random(5));
+global.b_color = floor(random(4));
 
+words[0] = "Control";
+words[1] = "Accountability";
+words[2] = "Blaming";
+words[3] = "Safety";
+words[4] = "Jealousy";
+words[5] = "Trust";
+words[6] = "Anger";
+words[7] = "Cooperation";
+words[8] = "Possesive";
+
+global.speeds = -15;
+y=900;
+
+global.word = words[(random(9))];
 x_pos = -1;
 
 if(global.position == 0){
@@ -65,17 +79,43 @@ if(global.position == 0){
 
 if(global.b_color == 0){
     instance_create(x_pos, 900, obj_balloon1);
+    draw_text(x_pos, y, global.word);
 }
 if(global.b_color == 1){
     instance_create(x_pos, 900, obj_balloon2);
+    draw_text(x_pos, y, global.word);
 }
 if(global.b_color == 2){
     instance_create(x_pos, 900, obj_balloon3);
+    draw_text(x_pos, y, global.word);
 }
 if(global.b_color == 3){
     instance_create(x_pos, 900, obj_balloon4);
+    draw_text(x_pos, y, global.word);
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>

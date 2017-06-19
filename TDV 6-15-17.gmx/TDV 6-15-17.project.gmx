@@ -56,16 +56,15 @@
       <object>objects\obj_mbut3</object>
     </objects>
     <objects name="Balloons">
-      <object>objects\obj_balloon1</object>
       <object>objects\obj_balloon2</object>
-      <object>objects\obj_balloon3</object>
       <object>objects\obj_balloon4</object>
+      <object>objects\obj_balloon1</object>
+      <object>objects\obj_balloon3</object>
     </objects>
     <objects name="Controllers">
-      <object>objects\create_controller</object>
-      <object>objects\speed_controller</object>
-      <object>objects\word_controller</object>
+      <object>objects\balloon_controller</object>
     </objects>
+    <object>objects\object14</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
