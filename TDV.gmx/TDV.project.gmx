@@ -16,16 +16,6 @@
       <sprite>sprites\spr_mbut2</sprite>
       <sprite>sprites\spr_mbut3</sprite>
       <sprite>sprites\spr_mbut4</sprite>
-      <sprites name="Info">
-        <sprite>sprites\spr_info_sexual</sprite>
-        <sprite>sprites\spr_info_social</sprite>
-        <sprite>sprites\spr_info_quiz</sprite>
-        <sprites name="Emotional">
-          <sprite>sprites\spr_info_emotional</sprite>
-          <sprite>sprites\spr_emo_banner</sprite>
-          <sprite>sprites\spr_emo_info</sprite>
-        </sprites>
-      </sprites>
     </sprites>
     <sprites name="Characters">
       <sprite>sprites\spr_man</sprite>
@@ -36,8 +26,32 @@
       <sprite>sprites\spr_balloon3</sprite>
       <sprite>sprites\spr_balloon2</sprite>
       <sprite>sprites\spr_balloon4</sprite>
+      <sprite>sprites\spr_heart</sprite>
     </sprites>
-    <sprite>sprites\spr_heart</sprite>
+    <sprites name="Info">
+      <sprite>sprites\spr_info_quiz</sprite>
+      <sprites name="Emotional">
+        <sprite>sprites\spr_info_emotional</sprite>
+        <sprite>sprites\spr_emo_banner</sprite>
+        <sprite>sprites\spr_emo_info</sprite>
+        <sprite>sprites\spr_emo_abuse0</sprite>
+        <sprite>sprites\spr_emo_abuse1</sprite>
+      </sprites>
+      <sprites name="Social">
+        <sprite>sprites\spr_info_social</sprite>
+        <sprite>sprites\spr_soc_banner</sprite>
+        <sprite>sprites\spr_soc_info</sprite>
+        <sprite>sprites\spr_soc_abuse0</sprite>
+        <sprite>sprites\spr_soc_abuse1</sprite>
+      </sprites>
+      <sprites name="Sexual">
+        <sprite>sprites\spr_info_sexual</sprite>
+        <sprite>sprites\spr_sex_banner</sprite>
+        <sprite>sprites\spr_sex_info</sprite>
+        <sprite>sprites\spr_sex_abuse0</sprite>
+        <sprite>sprites\spr_sex_abuse1</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main</background>
@@ -70,16 +84,6 @@
       <object>objects\obj_mbut2</object>
       <object>objects\obj_mbut3</object>
       <object>objects\obj_mbut4</object>
-      <objects name="Info">
-        <object>objects\obj_info_sexual</object>
-        <object>objects\obj_info_social</object>
-        <object>objects\obj_info_quiz</object>
-        <objects name="Emotional">
-          <object>objects\obj_info_emotional</object>
-          <object>objects\obj_emo_banner</object>
-          <object>objects\obj_emo_info</object>
-        </objects>
-      </objects>
     </objects>
     <objects name="Balloons">
       <object>objects\obj_balloon1</object>
@@ -91,6 +95,30 @@
       <object>objects\obj_fade</object>
       <object>objects\obj_score</object>
       <object>objects\balloon_controller</object>
+    </objects>
+    <objects name="Info">
+      <object>objects\obj_info_quiz</object>
+      <objects name="Emotional">
+        <object>objects\obj_info_emotional</object>
+        <object>objects\obj_emo_banner</object>
+        <object>objects\obj_emo_info</object>
+        <object>objects\obj_emo_abuse0</object>
+        <object>objects\obj_emo_abuse1</object>
+      </objects>
+      <objects name="Social">
+        <object>objects\obj_info_social</object>
+        <object>objects\obj_soc_banner</object>
+        <object>objects\obj_soc_info</object>
+        <object>objects\obj_soc_abuse0</object>
+        <object>objects\obj_soc_abuse1</object>
+      </objects>
+      <objects name="Sexual">
+        <object>objects\obj_info_sexual</object>
+        <object>objects\obj_sex_banner</object>
+        <object>objects\obj_sex_info</object>
+        <object>objects\obj_sex_abuse0</object>
+        <object>objects\obj_sex_abuse1</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">

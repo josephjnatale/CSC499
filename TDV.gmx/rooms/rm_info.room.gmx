@@ -55,8 +55,18 @@
     <instance objName="obj_info_social" x="-100" y="327" name="inst_9BD143B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_info_sexual" x="-101" y="543" name="inst_0283E9CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_info_quiz" x="-101" y="708" name="inst_83B59A46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_emo_banner" x="1344" y="96" name="inst_EBA90ABA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_emo_info" x="1568" y="416" name="inst_6B6E25BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_emo_banner" x="2498" y="116" name="inst_EBA90ABA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_emo_info" x="2358" y="463" name="inst_6B6E25BB" locked="0" code="" scaleX="0.980000019073486" scaleY="1.21380841732025" colour="4294967295" rotation="0"/>
+    <instance objName="obj_emo_abuse0" x="2672" y="335" name="inst_DCC244B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_emo_abuse1" x="2696" y="618" name="inst_56F8BF3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_soc_banner" x="2497" y="115" name="inst_2C3F33B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_soc_info" x="2500" y="338" name="inst_E8CD2210" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_soc_abuse0" x="2351" y="630" name="inst_53368E20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_soc_abuse1" x="2730" y="615" name="inst_5D4E1FD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sex_banner" x="2498" y="113" name="inst_D0A041BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sex_info" x="2498" y="621" name="inst_5377F8E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sex_abuse0" x="2322" y="327" name="inst_A23E892D" locked="0" code="" scaleX="0.899999976158142" scaleY="0.832317054271698" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sex_abuse1" x="2670" y="332" name="inst_0B40FC75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
