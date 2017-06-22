@@ -15,6 +15,7 @@
       <sprite>sprites\spr_mbut1</sprite>
       <sprite>sprites\spr_mbut2</sprite>
       <sprite>sprites\spr_mbut3</sprite>
+      <sprite>sprites\spr_mbut4</sprite>
       <sprites name="Info">
         <sprite>sprites\spr_info_sexual</sprite>
         <sprite>sprites\spr_info_social</sprite>
@@ -65,8 +66,10 @@
     <objects name="Buttons">
       <object>objects\obj_start</object>
       <object>objects\obj_menu</object>
+      <object>objects\obj_mbut1</object>
       <object>objects\obj_mbut2</object>
       <object>objects\obj_mbut3</object>
+      <object>objects\obj_mbut4</object>
       <objects name="Info">
         <object>objects\obj_info_sexual</object>
         <object>objects\obj_info_social</object>
