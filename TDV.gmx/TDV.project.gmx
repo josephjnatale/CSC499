@@ -125,6 +125,7 @@
     <room>rooms\rm_start</room>
     <room>rooms\rm_balloon</room>
     <room>rooms\rm_info</room>
+    <room>rooms\rm_main_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

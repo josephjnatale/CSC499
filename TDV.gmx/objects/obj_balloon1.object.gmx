@@ -39,7 +39,7 @@ words[6] = "      Anger";
 words[7] = "Cooperation";
 words[8] = "  Possesive";
 
-global.speeds = -15;
+global.speeds = -10;
 y=900;
 
 randword = random(9);
@@ -95,7 +95,7 @@ if(y &lt; 0) {
 }
 
 if(image_index == 6) {
-    if(wordgood != true){
+    if(wordgood == true){
         lives -=1;
     }
  
