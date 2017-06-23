@@ -103,10 +103,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_mbut1 &amp;&amp; obj_mbut2 &amp;&amp; obj_mbut3 &amp;&amp; obj_mbut4){
-    instance_destroy();
-}
-scr_fade(rm_info);
+            <string>scr_fade(rm_info);
 </string>
           </argument>
         </arguments>

@@ -25,12 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 18;
-global.position = floor(random(3));
-global.b_color = floor(random(4));
+            <string>image_speed = 0;
+image_index = 0;
 
-words[0] = "Accountability";
-words[1] = "    Control";
+words[0] = "    Control";
+words[1] = "Accountability";
 words[2] = "    Blaming";
 words[3] = "     Safety";
 words[4] = "   Jealousy";
@@ -39,30 +38,12 @@ words[6] = "      Anger";
 words[7] = "Cooperation";
 words[8] = "  Possesive";
 
-global.speeds = -10;
-y=900;
-
-randword = random(9);
+randword = floor(random(9));
 word = words[randword];
+phrase = randword mod 2;
 
-if(randword%2 == 1) wordgood = true;
-else wordgood= false;
-
-x_pos = -1;
-
-if(global.position == 0){
-    x_pos = (room_width/3)/2;  
-} else if(global.position == 1) {
-    x_pos = room_width/2;
-} else { 
-    x_pos = (room_width/2) + (room_width/3);
-}
-
-
-
-image_speed = 0;
-image_index = 0;
-
+if(phrase == 1) wordgood = true;
+else wordgood = false;
 </string>
           </argument>
         </arguments>
@@ -85,12 +66,12 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = global.speeds
+            <string>vspeed = global.speeds;
+
 if(y &lt; 0) {
-    if(wordgood != true){
+    if(wordgood == false){
         lives -=1;
     }
- 
     instance_destroy();
 }
 
