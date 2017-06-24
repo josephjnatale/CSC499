@@ -47,7 +47,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_txt("Welcome to the main menu",0.25,x+50,y-350);
+            <string>scr_txt("Welcome to the main menu",0.5,x+50,y-350);
 
 </string>
           </argument>

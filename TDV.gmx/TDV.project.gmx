@@ -7,6 +7,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_go</sprite>
     <sprite>sprites\spr_goals</sprite>
     <sprite>sprites\spr_title</sprite>
     <sprites name="Buttons">
@@ -76,6 +77,8 @@
     <font>fonts\fnt</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_go</object>
+    <object>objects\obj_go1</object>
     <object>objects\obj_banner</object>
     <objects name="Characters">
       <object>objects\obj_man</object>
