@@ -70,6 +70,7 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_fade.gml</script>
+    <script>scripts\scr_txt.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt</font>
@@ -78,6 +79,7 @@
     <object>objects\obj_banner</object>
     <objects name="Characters">
       <object>objects\obj_man</object>
+      <object>objects\obj_menu_man</object>
       <object>objects\obj_woman</object>
     </objects>
     <objects name="Buttons">
@@ -100,6 +102,7 @@
       <object>objects\balloon_controller</object>
       <object>objects\obj_restart</object>
       <object>objects\obj_quit</object>
+      <object>objects\obj_txt</object>
     </objects>
     <objects name="Info">
       <object>objects\obj_info_quiz</object>
@@ -128,8 +131,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
-    <room>rooms\rm_balloon</room>
     <room>rooms\rm_info</room>
+    <room>rooms\rm_balloon</room>
     <room>rooms\rm_main_menu</room>
   </rooms>
   <help>

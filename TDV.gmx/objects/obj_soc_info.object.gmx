@@ -20,12 +20,12 @@
         <functionname>action_set_friction</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>.32</string>
+            <string>.8</string>
           </argument>
         </arguments>
       </action>
