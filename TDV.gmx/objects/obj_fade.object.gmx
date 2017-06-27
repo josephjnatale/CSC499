@@ -53,10 +53,10 @@ stagetwo = 0;
             <string>draw_set_colour(c_black);
 var x1, x2, y1, y2;
 
-x1 = view_xview + left ;
-x2 = view_xview + right ;
-y1 = view_yview ;
-y2 = view_yview + view_hview ;
+x1 = view_hview + left ;
+x2 = view_wview + right ;
+y1 = view_hview ;
+y2 = view_hview + view_hview ;
 right += 50 ;
 left += 50*stagetwo ;
 

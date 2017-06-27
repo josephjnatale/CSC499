@@ -68,7 +68,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>obj_mbut3</whoName>
+        <whoName>obj_info</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>

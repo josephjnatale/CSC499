@@ -20,12 +20,33 @@
         <functionname>action_set_friction</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>.3</string>
+            <string>.26</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.selected = false;
+</string>
           </argument>
         </arguments>
       </action>
@@ -48,30 +69,7 @@
           <argument>
             <kind>1</kind>
             <string>with(obj_txt) instance_destroy();
-scr_txt("Learn about Dating Violence #and complete the quiz.",0.5,obj_menu_man.x+50,obj_menu_man.y-350);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>instance_create(obj_menu_man.x +300,obj_menu_man.y, obj_go1);
+scr_txt("Learn about Dating Violence #and complete the quiz.# Click the square again to begin.",0.7,400,900);
 </string>
           </argument>
         </arguments>
@@ -94,9 +92,20 @@ scr_txt("Learn about Dating Violence #and complete the quiz.",0.5,obj_menu_man.x
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-alarm[0] = 60;
-alarm[1] = 10;
+            <string>if(global.selected=false){
+    global.selected =true;
+    alarm[1] = 10;
+}
+else if( global.selected = true){
+with(obj_mbut1)instance_destroy();
+with(obj_mbut2)instance_destroy();
+with(obj_info)instance_destroy();
+with(obj_mbut4)instance_destroy();
+
+scr_fade(rm_info);
+}
+
+
 </string>
           </argument>
         </arguments>
@@ -133,11 +142,11 @@ alarm[1] = 10;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>-50</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-59</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>0</kind>

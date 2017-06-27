@@ -65,6 +65,8 @@
     <background>background\bg_sky</background>
     <background>background\bg_clouds</background>
     <background>background\bg_emotional</background>
+    <background>background\bg_schoolbg</background>
+    <background>background\bg_classroombg</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\up</path>
@@ -90,7 +92,7 @@
       <object>objects\obj_menu</object>
       <object>objects\obj_mbut1</object>
       <object>objects\obj_mbut2</object>
-      <object>objects\obj_mbut3</object>
+      <object>objects\obj_info</object>
       <object>objects\obj_mbut4</object>
     </objects>
     <objects name="Balloons">
