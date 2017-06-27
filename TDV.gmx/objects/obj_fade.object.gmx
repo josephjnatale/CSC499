@@ -28,6 +28,7 @@
             <string>left = 0;
 right = 0;
 stagetwo = 0;
+
 </string>
           </argument>
         </arguments>
@@ -53,16 +54,17 @@ stagetwo = 0;
             <string>draw_set_colour(c_black);
 var x1, x2, y1, y2;
 
-x1 = view_hview + left ;
-x2 = view_wview + right ;
-y1 = view_hview ;
-y2 = view_hview + view_hview ;
-right += 50 ;
-left += 50*stagetwo ;
+x1 = view_xview + left ;
+x2 = view_xview+ right ;
+y1 = view_yview ;
+y2 = view_yview + view_hview;
+right += 60 ;
+left += 60*stagetwo ;
 
-draw_rectangle(x1,y1,x2,y2, 0);
+draw_rectangle(x1,y1,x2*2.5,y2*2.5, 0);
 
-if( right &gt; view_wview[50] &amp;&amp; (!stagetwo)){
+
+if( right &gt; view_wview+50 &amp;&amp; (!stagetwo)){
     stagetwo = 1;
     room_goto(goal);
 }

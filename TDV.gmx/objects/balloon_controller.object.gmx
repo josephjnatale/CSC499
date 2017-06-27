@@ -70,8 +70,8 @@ alarm[0] = 14;
           <argument>
             <kind>1</kind>
             <string>done = false;
-width = window_get_width();
-height = window_get_height();
+width = 1080;
+height = 1900;
 </string>
           </argument>
         </arguments>
@@ -100,7 +100,7 @@ b_color = floor(random(5));
 
 
 global.speeds = -10;
-y=900;
+y_pos = 2000;
 
 
 x_pos = -1;
@@ -114,21 +114,19 @@ if(position == 0){
 }
 
 if(b_color == 0){
-    instance_create(x_pos, 900, obj_balloon1);
+    instance_create(x_pos, y_pos, obj_balloon1);
 }
-
-
 if(b_color == 1){
-    instance_create(x_pos, 900, obj_balloon2);
+    instance_create(x_pos, y_pos, obj_balloon2);
 }
 if(b_color == 2){
-    instance_create(x_pos, 900, obj_balloon3);
+    instance_create(x_pos, y_pos, obj_balloon3);
 }
 if(b_color == 3){
-    instance_create(x_pos, 900, obj_balloon4);
+    instance_create(x_pos, y_pos, obj_balloon4);
 }
 if(b_color == 4){
-    instance_create(x_pos, 900, obj_balloon5);
+    instance_create(x_pos, y_pos, obj_balloon5);
 }
 
 </string>

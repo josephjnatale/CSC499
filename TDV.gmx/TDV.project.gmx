@@ -17,6 +17,7 @@
       <sprite>sprites\spr_mbut2</sprite>
       <sprite>sprites\spr_mbut3</sprite>
       <sprite>sprites\spr_mbut4</sprite>
+      <sprite>sprites\spr_burger</sprite>
     </sprites>
     <sprites name="Characters">
       <sprite>sprites\spr_man</sprite>
@@ -67,6 +68,8 @@
     <background>background\bg_emotional</background>
     <background>background\bg_schoolbg</background>
     <background>background\bg_classroombg</background>
+    <background>background\bg_balloons</background>
+    <background>background\bg_library</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\up</path>
@@ -79,8 +82,6 @@
     <font>fonts\fnt</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_go</object>
-    <object>objects\obj_go1</object>
     <object>objects\obj_banner</object>
     <objects name="Characters">
       <object>objects\obj_man</object>
@@ -89,7 +90,6 @@
     </objects>
     <objects name="Buttons">
       <object>objects\obj_start</object>
-      <object>objects\obj_menu</object>
       <object>objects\obj_mbut1</object>
       <object>objects\obj_mbut2</object>
       <object>objects\obj_info</object>
@@ -110,6 +110,7 @@
       <object>objects\obj_txt</object>
     </objects>
     <objects name="Info">
+      <object>objects\obj_burger</object>
       <object>objects\obj_info_quiz</object>
       <objects name="Emotional">
         <object>objects\obj_info_emotional</object>
@@ -135,10 +136,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_main_menu</room>
     <room>rooms\rm_start</room>
     <room>rooms\rm_info</room>
     <room>rooms\rm_balloon</room>
-    <room>rooms\rm_main_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
