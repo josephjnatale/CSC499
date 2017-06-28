@@ -55,7 +55,6 @@
     <instance objName="obj_mbut2" x="1856" y="640" name="inst_542261DD" locked="0" code="" scaleX="1.42211055755615" scaleY="1.54499995708466" colour="4294967295" rotation="0"/>
     <instance objName="obj_info" x="1248" y="480" name="inst_8BD00ABA" locked="0" code="" scaleX="1.70351755619049" scaleY="1.50251257419586" colour="4294967295" rotation="0"/>
     <instance objName="obj_mbut4" x="1408" y="768" name="inst_8D967718" locked="0" code="" scaleX="1.53999996185303" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="obj_go" x="3392" y="1952" name="inst_96CF3A48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
