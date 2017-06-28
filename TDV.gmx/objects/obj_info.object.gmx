@@ -46,8 +46,8 @@
           <argument>
             <kind>1</kind>
             <string>global.selected = false;
-width = view_xview + view_wview * 0.5
-height = view_yview + view_hview * 0.5
+width = 1080; //view_xview + view_wview * 0.5
+height = 1920;//view_yview + view_hview * 0.5
 </string>
           </argument>
         </arguments>
@@ -71,7 +71,7 @@ height = view_yview + view_hview * 0.5
           <argument>
             <kind>1</kind>
             <string>with(obj_txt) instance_destroy();
-scr_txt("Learn about Dating Violence #and complete the quiz.# Click the square again to begin.",0.7,width,height);
+scr_txt("Learn about Dating Violence #and complete the quiz.# Click the square again to begin.",1,width/2,height/2);
 </string>
           </argument>
         </arguments>
