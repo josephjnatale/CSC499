@@ -45,7 +45,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>burgerclick = 0;
+            <string>global.burgerclick = 0;
 </string>
           </argument>
         </arguments>
@@ -68,8 +68,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>burgerclick +=1;
-if(burgerclick mod 2 = 1) burgereven = true;
+            <string>global.burgerclick +=1;
+if(global.burgerclick mod 2 = 1) burgereven = true;
 else burgereven = false;
 </string>
           </argument>

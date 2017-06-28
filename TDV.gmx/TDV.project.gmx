@@ -57,6 +57,7 @@
       <sprite>sprites\spr_restart</sprite>
       <sprite>sprites\spr_quit</sprite>
     </sprites>
+    <sprite>sprites\spr_sexualAbuseInfo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main</background>
@@ -134,6 +135,7 @@
         <object>objects\obj_sex_abuse1</object>
       </objects>
     </objects>
+    <object>objects\obj_SA_info</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
