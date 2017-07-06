@@ -71,7 +71,7 @@ height = 1920;//view_yview + view_hview * 0.5
           <argument>
             <kind>1</kind>
             <string>with(obj_txt) instance_destroy();
-scr_txt("Learn about Dating Violence #and complete the quiz.# Click the square again to begin.",1,width/2,height/2);
+scr_txt("Learn about Dating Violence #and complete the quiz.# Click the square again to begin.",2,width/2,height/2);
 </string>
           </argument>
         </arguments>
@@ -96,7 +96,7 @@ scr_txt("Learn about Dating Violence #and complete the quiz.# Click the square a
             <kind>1</kind>
             <string>if(global.selected=false){
     global.selected =true;
-    alarm[1] = 10;
+    alarm[1] = 1;
 }
 else {
     with(obj_mbut1)instance_destroy();

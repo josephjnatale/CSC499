@@ -209,8 +209,8 @@ if(b_color == 4){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create((width/2)-50,height/2, obj_restart);
-instance_create((width/2)+50,height/2, obj_quit);
+            <string>instance_create((width/2)-100,height/2, obj_restart);
+instance_create((width/2)+100,height/2, obj_quit);
 </string>
           </argument>
         </arguments>

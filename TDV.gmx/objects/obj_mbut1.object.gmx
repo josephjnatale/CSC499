@@ -70,7 +70,7 @@ height = 1900;
           <argument>
             <kind>1</kind>
             <string>with(obj_txt) instance_destroy();
-scr_txt("This is the Balloon game,#pop all the negative #attribute balloons",1,width/2,height/2);
+scr_txt("This is the Balloon game,#pop all the negative #attribute balloons",2,width/2,height/2);
 </string>
           </argument>
         </arguments>
@@ -95,7 +95,7 @@ scr_txt("This is the Balloon game,#pop all the negative #attribute balloons",1,w
             <kind>1</kind>
             <string>if(global.selected=false){
     global.selected =true;
-    alarm[1] = 10;
+    alarm[1] = 1;
 }
 else {
     with(obj_mbut1)instance_destroy();

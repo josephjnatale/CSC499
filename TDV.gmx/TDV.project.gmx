@@ -8,11 +8,9 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_restart</sprite>
-    <sprite>sprites\spr_go</sprite>
-    <sprite>sprites\spr_goals</sprite>
+    <sprite>sprites\spr_quit</sprite>
     <sprite>sprites\spr_title</sprite>
     <sprites name="Buttons">
-      <sprite>sprites\spr_main_menu</sprite>
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_mbut1</sprite>
       <sprite>sprites\spr_mbut2</sprite>
@@ -32,10 +30,8 @@
       <sprite>sprites\spr_balloon5</sprite>
       <sprite>sprites\spr_heart</sprite>
     </sprites>
-    <sprite>sprites\spr_info_social</sprite>
     <sprites name="Info">
       <sprite>sprites\spr_info_quiz</sprite>
-      <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_info_dating</sprite>
       <sprite>sprites\spr_info_sexual</sprite>
       <sprite>sprites\spr_datingAbuse</sprite>
@@ -43,13 +39,6 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_main</background>
-    <background>background\bg_goals</background>
-    <background>background\bg_menu</background>
-    <background>background\bg_buildings</background>
-    <background>background\bg_sky</background>
-    <background>background\bg_clouds</background>
-    <background>background\bg_emotional</background>
     <background>background\bg_schoolbg</background>
     <background>background\bg_classroombg</background>
     <background>background\bg_balloons</background>
@@ -95,7 +84,10 @@
     </objects>
     <objects name="Info">
       <object>objects\obj_burger</object>
-      <object>objects\obj_info_quiz</object>
+      <objects name="quiz">
+        <object>objects\obj_info_quiz</object>
+        <object>objects\quiz_spawn</object>
+      </objects>
       <object>objects\obj_info_datingAbuse</object>
       <object>objects\obj_info_sexual</object>
       <object>objects\obj_dating_info</object>
