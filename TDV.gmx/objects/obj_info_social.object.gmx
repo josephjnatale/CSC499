@@ -90,7 +90,7 @@
         <exetype>1</exetype>
         <functionname>action_move_point</functionname>
         <codestring></codestring>
-        <whoName>obj_info_emotional</whoName>
+        <whoName>obj_datingAbuse</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
@@ -146,7 +146,7 @@
         <exetype>1</exetype>
         <functionname>action_move_point</functionname>
         <codestring></codestring>
-        <whoName>obj_info_sexual</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>

@@ -7,6 +7,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_restart</sprite>
     <sprite>sprites\spr_go</sprite>
     <sprite>sprites\spr_goals</sprite>
     <sprite>sprites\spr_title</sprite>
@@ -31,35 +32,15 @@
       <sprite>sprites\spr_balloon5</sprite>
       <sprite>sprites\spr_heart</sprite>
     </sprites>
+    <sprite>sprites\spr_info_social</sprite>
     <sprites name="Info">
       <sprite>sprites\spr_info_quiz</sprite>
-      <sprites name="Emotional">
-        <sprite>sprites\spr_info_emotional</sprite>
-        <sprite>sprites\spr_emo_banner</sprite>
-        <sprite>sprites\spr_emo_info</sprite>
-        <sprite>sprites\spr_emo_abuse0</sprite>
-        <sprite>sprites\spr_emo_abuse1</sprite>
-      </sprites>
-      <sprites name="Social">
-        <sprite>sprites\spr_info_social</sprite>
-        <sprite>sprites\spr_soc_banner</sprite>
-        <sprite>sprites\spr_soc_info</sprite>
-        <sprite>sprites\spr_soc_abuse0</sprite>
-        <sprite>sprites\spr_soc_abuse1</sprite>
-      </sprites>
-      <sprites name="Sexual">
-        <sprite>sprites\spr_info_sexual</sprite>
-        <sprite>sprites\spr_sex_banner</sprite>
-        <sprite>sprites\spr_sex_info</sprite>
-        <sprite>sprites\spr_sex_abuse0</sprite>
-        <sprite>sprites\spr_sex_abuse1</sprite>
-      </sprites>
-      <sprite>sprites\spr_restart</sprite>
       <sprite>sprites\spr_quit</sprite>
+      <sprite>sprites\spr_info_dating</sprite>
+      <sprite>sprites\spr_info_sexual</sprite>
+      <sprite>sprites\spr_datingAbuse</sprite>
+      <sprite>sprites\spr_sexualAbuse</sprite>
     </sprites>
-    <sprite>sprites\spr_sexualAbuseInfo</sprite>
-    <sprite>sprites\spr_emotionalAbuseInfo</sprite>
-    <sprite>sprites\spr_socailAbuseInfo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main</background>
@@ -115,29 +96,10 @@
     <objects name="Info">
       <object>objects\obj_burger</object>
       <object>objects\obj_info_quiz</object>
-      <objects name="Emotional">
-        <object>objects\obj_info_emotional</object>
-        <object>objects\obj_emo_banner</object>
-        <object>objects\obj_emo_info</object>
-        <object>objects\obj_emo_abuse0</object>
-        <object>objects\obj_emo_abuse1</object>
-      </objects>
-      <objects name="Social">
-        <object>objects\obj_info_social</object>
-        <object>objects\obj_soc_banner</object>
-        <object>objects\obj_soc_info</object>
-        <object>objects\obj_soc_abuse0</object>
-        <object>objects\obj_soc_abuse1</object>
-      </objects>
-      <objects name="Sexual">
-        <object>objects\obj_info_sexual</object>
-        <object>objects\obj_sex_banner</object>
-        <object>objects\obj_sex_info</object>
-        <object>objects\obj_sex_abuse0</object>
-        <object>objects\obj_sex_abuse1</object>
-      </objects>
+      <object>objects\obj_info_datingAbuse</object>
+      <object>objects\obj_info_sexual</object>
+      <object>objects\obj_dating_info</object>
     </objects>
-    <object>objects\obj_SA_info</object>
     <object>objects\obj_EA_info</object>
     <object>objects\obj_SocicalA_info</object>
   </objects>
