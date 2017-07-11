@@ -30,9 +30,8 @@ answer[0] = "Nope";
 answer[1] = "No Clue";
 answer[2] = "Yes";
 answer[3] = "Pickles..";
-global.width = window_get_width();
-global.height = window_get_height();
-global.question_num = 0;
+with(obj_bar){image_index = global.question_num++};
+
 </string>
           </argument>
         </arguments>
@@ -56,7 +55,6 @@ global.question_num = 0;
           <argument>
             <kind>1</kind>
             <string>
-with(obj_bar){image_index = 1};
 
 
 draw_set_colour(c_white);

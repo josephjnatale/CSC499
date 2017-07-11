@@ -38,9 +38,10 @@
       <sprite>sprites\spr_sexualAbuse</sprite>
       <sprite>sprites\spr_wrong</sprite>
       <sprite>sprites\spr_correct</sprite>
+      <sprite>sprites\spr_bar</sprite>
       <sprite>sprites\spr_box</sprite>
+      <sprite>sprites\spr_arrow</sprite>
     </sprites>
-    <sprite>sprites\spr_bar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_schoolbg</background>
@@ -103,14 +104,15 @@
         <object>objects\obj_answer</object>
         <object>objects\obj_not_ans</object>
         <object>objects\obj_correct</object>
+        <object>objects\obj_bar</object>
+        <object>objects\obj_arrow</object>
         <object>objects\obj_wrong</object>
       </objects>
-      <object>objects\obj_bar</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_info</room>
     <room>rooms\rm_start</room>
+    <room>rooms\rm_info</room>
     <room>rooms\rm_main_menu</room>
     <room>rooms\rm_balloon</room>
   </rooms>

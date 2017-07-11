@@ -182,7 +182,7 @@
           <argument>
             <kind>1</kind>
             <string>instance_create(x,y,quiz_spawn);
-instance_create(global.width/20,global.height/9,obj_bar);
+
 </string>
           </argument>
         </arguments>
