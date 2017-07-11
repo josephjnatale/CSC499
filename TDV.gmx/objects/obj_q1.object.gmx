@@ -61,16 +61,16 @@ with(obj_bar){image_index = 1};
 
 draw_set_colour(c_white);
 draw_set_font(fnt_quiz);
-draw_text(global.width/2 - 50,global.height/3, question);
+draw_text(global.width/3,global.height/3, question);
 
 
-draw_text(global.width/2 - 200, global.height/1.1, answer[0]);
-draw_text(global.width/2 - 200, global.height/1.1 + 200, answer[1]);
+draw_text(global.width/3 - 200, global.height/1.1, answer[0]);
+draw_text(global.width/3 - 200, global.height/1.1 + 200, answer[1]);
 draw_text(global.width/2 + 200, global.height/1.1, answer[2]);
 draw_text(global.width/2 + 200, global.height/1.1 + 200, answer[3]);
 
-instance_create(global.width/2 - 200, global.height/1.1, obj_not_ans);
-instance_create(global.width/2 - 200, global.height/1.1 + 200, obj_not_ans);
+instance_create(global.width/3 - 200, global.height/1.1, obj_not_ans);
+instance_create(global.width/3 - 200, global.height/1.1 + 200, obj_not_ans);
 instance_create(global.width/2 + 200, global.height/1.1, obj_answer);
 instance_create(global.width/2 + 200, global.height/1.1 + 200, obj_not_ans);
 
