@@ -31,12 +31,24 @@ ds_list_shuffle(qnum);
 
 instance_create(global.width/20,global.height/9,obj_bar);
 
+
+index = qnum[| 0] 
+
+    
+
+
+
+
+/**
 for(var i = 0; i &lt; ds_list_size(qnum) ; i++ ){
     index = qnum[| i] ;
     switch(index){
         case 0:
             instance_create(x,y,obj_q1);
-      //  case 1:
+            break;
+        case 1:
+            instance_create(x,y,obj_q2);
+            break;
       //  case 2:
       //  case 3:
       //  case 4:
@@ -45,10 +57,11 @@ for(var i = 0; i &lt; ds_list_size(qnum) ; i++ ){
       //  case 7:
       //  case 8:
       //  case 9:
-        
+
     
     }
 }
+**/
 </string>
           </argument>
         </arguments>
@@ -72,6 +85,17 @@ for(var i = 0; i &lt; ds_list_size(qnum) ; i++ ){
           <argument>
             <kind>1</kind>
             <string>with(obj_bar) image_index = global.question_num;
+
+if (index == 0) instance_create(x,y,obj_q0);
+else if (index == 1) instance_create(x,y,obj_q1);
+else if (index == 2) draw_text(500,500,"issa 2")//instance_create(x,y,obj_q2);
+else if (index == 3) draw_text(500,500,"issa 3")//instance_create(x,y,obj_q3);
+else if (index == 4) draw_text(500,500,"issa 4")//instance_create(x,y,obj_q4);
+else if (index == 5) draw_text(500,500,"issa 5")// instance_create(x,y,obj_q5);
+else if (index == 6) draw_text(500,500,"issa 6")//instance_create(x,y,obj_q6);
+else if (index == 7) draw_text(500,500,"issa 7")//instance_create(x,y,obj_q7);
+else if (index == 8) draw_text(500,500,"issa 8")//instance_create(x,y,obj_q8);
+else draw_text(500,500,"issa 9")//instance_create(x,y,obj_q9);
 </string>
           </argument>
         </arguments>

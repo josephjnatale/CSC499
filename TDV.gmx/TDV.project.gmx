@@ -97,10 +97,11 @@
       <object>objects\obj_SocicalA_info</object>
       <objects name="quiz">
         <object>objects\obj_info_quiz</object>
+        <object>objects\quiz_spawn</object>
         <objects name="questions">
+          <object>objects\obj_q0</object>
           <object>objects\obj_q1</object>
         </objects>
-        <object>objects\quiz_spawn</object>
         <object>objects\obj_answer</object>
         <object>objects\obj_not_ans</object>
         <object>objects\obj_correct</object>
