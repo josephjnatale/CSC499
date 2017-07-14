@@ -47,7 +47,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(0, 1080,obj_dating_info)
+            <string>with(quiz_spawn) instance_destroy();
+with(obj_answer) instance_destroy();
+with(obj_not_ans) instance_destroy();
+with(obj_correct) instance_destroy();
+with(obj_wrong) instance_destroy();
+with(obj_bar) instance_destroy();
+with(global.qnum[| global.i]) instance_destroy();
+
+instance_create(0, 1080,obj_dating_info)
 </string>
           </argument>
         </arguments>
