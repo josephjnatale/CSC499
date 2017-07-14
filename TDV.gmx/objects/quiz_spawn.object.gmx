@@ -25,67 +25,6 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//moved this code to rm_info creation code
-/**
-qnum = ds_list_create();
-ds_list_add(qnum, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
-ds_list_shuffle(qnum);
-**/
-
-
-/**
-for(var i = 0; i &lt; ds_list_size(global.qnum) ; i++ ){
-    temp = global.qnum[| i] ;
-    global.index[i] = temp; 
-}
- **/   
-
-
-
-
-/**
-for(var i = 0; i &lt; ds_list_size(qnum) ; i++ ){
-    index = qnum[| i] ;
-    switch(index){
-        case 0:
-            instance_create(x,y,obj_q1);
-            break;
-        case 1:
-            instance_create(x,y,obj_q2);
-            break;
-      //  case 2:
-      //  case 3:
-      //  case 4:
-      //  case 5:
-      //  case 6:
-      //  case 7:
-      //  case 8:
-      //  case 9:
-
-    
-    }
-}
-**/
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>instance_create(global.width/20,global.height/9,obj_bar);
 
 </string>
@@ -110,63 +49,17 @@ for(var i = 0; i &lt; ds_list_size(qnum) ; i++ ){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/**
-switch(global.index[]){ 
-case 0:
-    instance_create(x,y,obj_q0);
-    break;
-case 1:
-    instance_create(x,y,obj_q1);
-    break;
-case 2:
-    instance_create(x,y,obj_q2);
-    break;
-case 3:
-    instance_create(x,y,obj_q3);
-    break;
-case 4:
-    instance_create(x,y,obj_q4);
-    break;
-case 5:
-    instance_create(x,y,obj_q5);
-    break;
-case 6:
-    instance_create(x,y,obj_q6);
-    break;
-case 7:
-    instance_create(x,y,obj_q7);
-    break;
-case 8:
-    instance_create(x,y,obj_q8);
-    break;
-case 9:
-    instance_create(x,y,obj_q9);
-    break;
+            <string>// if i &gt; size of list then finish
+if(global.i &lt; ds_list_size(global.qnum))
+    instance_create(x,y, global.qnum[| global.i]);
+else{
+    with(obj_bar) instance_destroy();
+    instance_create((global.width/2)+100, global.height/2, obj_quit);
 }
-
-
-**/
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string> instance_create(x,y, global.qnum[| global.i]);
+with(obj_bar) {
+    image_index = global.i;
+    image_speed = 0;    
+}
 </string>
           </argument>
         </arguments>
@@ -190,29 +83,6 @@ case 9:
           <argument>
             <kind>1</kind>
             <string>ds_list_destroy(global.qnum);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>with(obj_bar) image_index = global.question_num;
 </string>
           </argument>
         </arguments>
