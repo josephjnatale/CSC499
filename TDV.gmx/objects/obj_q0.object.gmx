@@ -25,13 +25,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>question = "Question Two?";
-answer[0] = "Jes";
-answer[1] = "Tree";
-answer[2] = "Poop";
-answer[3] = "Yes";
-with(obj_bar){image_index = global.question_num++};
+            <string>question = "Is this a question?";
+answer[0] = "No clue";
+answer[1] = "Nope";
+answer[2] = "Yes";
+answer[3] = "...";
 
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with(obj_bar) image_index = global.question_num++;
 </string>
           </argument>
         </arguments>
@@ -69,8 +92,8 @@ draw_text(global.width/2 + 200, global.height/1.1 + 200, answer[3]);
 
 instance_create(global.width/3 - 200, global.height/1.1, obj_not_ans);
 instance_create(global.width/3 - 200, global.height/1.1 + 200, obj_not_ans);
-instance_create(global.width/2 + 200, global.height/1.1, obj_not_ans);
-instance_create(global.width/2 + 200, global.height/1.1 + 200, obj_answer);
+instance_create(global.width/2 + 200, global.height/1.1, obj_answer);
+instance_create(global.width/2 + 200, global.height/1.1 + 200,obj_not_ans );
 
 
 </string>

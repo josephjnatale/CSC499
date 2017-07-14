@@ -47,7 +47,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_correct) instance_destroy();
+            <string>with(obj_wrong) instance_destroy();
+with(obj_correct) instance_destroy();
+with(obj_arrow) instance_destroy();
+
 instance_create(global.width/2, global.height/2, obj_wrong);
 </string>
           </argument>

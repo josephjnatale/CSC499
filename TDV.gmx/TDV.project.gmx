@@ -101,6 +101,14 @@
         <objects name="questions">
           <object>objects\obj_q0</object>
           <object>objects\obj_q1</object>
+          <object>objects\obj_q2</object>
+          <object>objects\obj_q3</object>
+          <object>objects\obj_q4</object>
+          <object>objects\obj_q5</object>
+          <object>objects\obj_q6</object>
+          <object>objects\obj_q7</object>
+          <object>objects\obj_q8</object>
+          <object>objects\obj_q9</object>
         </objects>
         <object>objects\obj_answer</object>
         <object>objects\obj_not_ans</object>
