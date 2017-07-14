@@ -34,26 +34,25 @@ with(obj_correct)instance_destroy();
 
 
 global.i +=1;
+
+with(obj_bar) {
+    image_index = global.i;
+    image_speed = 0;    
+}
+
+if(global.i &lt; ds_list_size(global.qnum))
+    instance_create(x,y, global.qnum[| global.i]);
+
+else{
+    with(obj_bar) instance_destroy();
+    with(obj_quit) instance_destroy();
+    instance_create((global.width/2)+100, global.height/2, obj_quit);
+}
 instance_destroy();
+
 </string>
           </argument>
         </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>500</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring>draw_self();</codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>

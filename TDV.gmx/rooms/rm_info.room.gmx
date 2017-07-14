@@ -15,6 +15,7 @@ global.height = window_get_height();
 global.qnum = ds_list_create();
 ds_list_add(global.qnum, obj_q0, obj_q1, obj_q2, obj_q3, obj_q4, obj_q5, obj_q6, obj_q7, obj_q8, obj_q9);
 ds_list_shuffle(global.qnum);
+global.burgerclick = 0;
 global.i = 0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -57,10 +58,7 @@ global.i = 0;</code>
   </views>
   <instances>
     <instance objName="obj_burger" x="128" y="64" name="inst_42734337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_info_sexual" x="-300" y="500" name="inst_1E41CCA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_quit" x="967" y="34" name="inst_715E0931" locked="0" code="" scaleX="1.70707070827484" scaleY="1.55999994277954" colour="4294967295" rotation="0"/>
-    <instance objName="obj_info_datingAbuse" x="-200" y="107" name="inst_B4DF6F9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_info_quiz" x="-154" y="1081" name="inst_895D03E9" locked="0" code="" scaleX="1.53999996185303" scaleY="1.44347822666168" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
