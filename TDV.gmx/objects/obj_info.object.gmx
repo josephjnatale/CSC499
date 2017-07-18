@@ -74,7 +74,7 @@ height = 1920;//view_yview + view_hview * 0.5
 
 if (global.info_clicked ==1){
     with(obj_txt) instance_destroy();
-    scr_txt("This is the Balloon game,#pop all the negative #attribute balloons",2,width/2,height/2);
+    global.narrset =1;
     if(global.balloon_clicked &gt;= 1){
         global.balloon_clicked -=1;
     }
