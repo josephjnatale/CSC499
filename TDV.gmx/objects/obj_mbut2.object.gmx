@@ -30,6 +30,55 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.date_clicked +=1;
+
+if (global.date_clicked ==1){
+    with(obj_txt) instance_destroy();
+    //scr_txt("This is the Balloon game,#pop all the negative #attribute balloons",2,width/2,height/2);
+    if(global.info_clicked &gt;= 1){
+        global.info_clicked -=1;
+    }
+    if(global.balloon_clicked &gt;= 1){
+        global.balloon_clicked -=1;
+    }
+    if(global.escape_clicked &gt;= 1){
+        global.escape_clicked -=1;
+    }
+}
+
+if(global.date_clicked == 2){
+    with(obj_mbut1)instance_destroy();
+    with(obj_mbut2)instance_destroy();
+    with(obj_info)instance_destroy();
+    with(obj_mbut4)instance_destroy();
+    with(obj_txt)instance_destroy();
+    scr_fade(rm_date);
+}
+
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>

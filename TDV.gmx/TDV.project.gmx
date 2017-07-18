@@ -64,7 +64,6 @@
     <object>objects\obj_banner</object>
     <objects name="Characters">
       <object>objects\obj_man</object>
-      <object>objects\obj_menu_man</object>
       <object>objects\obj_woman</object>
     </objects>
     <objects name="Buttons">
@@ -121,8 +120,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
-    <room>rooms\rm_info</room>
     <room>rooms\rm_main_menu</room>
+    <room>rooms\rm_info</room>
     <room>rooms\rm_balloon</room>
   </rooms>
   <help>
