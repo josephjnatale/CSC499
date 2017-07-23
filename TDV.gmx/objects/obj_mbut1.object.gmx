@@ -73,7 +73,12 @@ height = 1900;
 
 if (global.balloon_clicked ==1){
     with(obj_txt) instance_destroy();
+<<<<<<< HEAD
     global.narrset =2;
+=======
+    instance_create(540,1900, obj_balloontut);
+    with(obj_balloontut) move_towards_point(540, 900, 30);
+>>>>>>> cc2142c581b4f23a21e6467aa27ada44f0e763f2
     if(global.info_clicked &gt;= 1){
         global.info_clicked -=1;
     }

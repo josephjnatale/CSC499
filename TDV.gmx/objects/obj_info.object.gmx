@@ -74,7 +74,11 @@ height = 1920;//view_yview + view_hview * 0.5
 
 if (global.info_clicked ==1){
     with(obj_txt) instance_destroy();
+<<<<<<< HEAD
     global.narrset =1;
+=======
+    scr_txt("This is the info room take a quiz",2,width/2,height/2);
+>>>>>>> cc2142c581b4f23a21e6467aa27ada44f0e763f2
     if(global.balloon_clicked &gt;= 1){
         global.balloon_clicked -=1;
     }
