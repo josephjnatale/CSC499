@@ -42,14 +42,11 @@
       <sprite>sprites\spr_box</sprite>
       <sprite>sprites\spr_arrow</sprite>
     </sprites>
-<<<<<<< HEAD
     <sprites name="main_menu">
       <sprite>sprites\sprite27</sprite>
       <sprite>sprites\spr_mainmenunarr</sprite>
     </sprites>
-=======
     <sprite>sprites\spr_balloontut</sprite>
->>>>>>> cc2142c581b4f23a21e6467aa27ada44f0e763f2
   </sprites>
   <backgrounds name="background">
     <background>background\bg_schoolbg</background>
@@ -126,14 +123,11 @@
         <object>objects\obj_wrong</object>
       </objects>
     </objects>
-<<<<<<< HEAD
     <objects name="main_menu">
       <object>objects\obj_mainmenunarr</object>
       <object>objects\main_menu_controller</object>
     </objects>
-=======
     <object>objects\obj_balloontut</object>
->>>>>>> cc2142c581b4f23a21e6467aa27ada44f0e763f2
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
