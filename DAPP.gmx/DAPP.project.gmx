@@ -29,6 +29,9 @@
         <sprite>sprites\scene8</sprite>
         <sprite>sprites\scene9</sprite>
         <sprite>sprites\scene10</sprite>
+        <sprite>sprites\scene11</sprite>
+        <sprite>sprites\scene12</sprite>
+        <sprite>sprites\scene13</sprite>
       </sprites>
     </sprites>
     <sprites name="start">
