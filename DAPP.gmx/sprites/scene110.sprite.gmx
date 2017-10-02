@@ -20,10 +20,8 @@
   <width>1080</width>
   <height>1920</height>
   <frames>
-    <frame index="0">images\scene8_0.png</frame>
-    <frame index="1">images\scene8_1.png</frame>
-    <frame index="2">images\scene8_2.png</frame>
-    <frame index="3">images\scene8_3.png</frame>
-    <frame index="4">images\scene8_4.png</frame>
+    <frame index="0">images\scene110_0.png</frame>
+    <frame index="1">images\scene110_1.png</frame>
+    <frame index="2">images\scene110_2.png</frame>
   </frames>
 </sprite>

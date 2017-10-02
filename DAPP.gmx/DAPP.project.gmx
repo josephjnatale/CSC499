@@ -32,6 +32,7 @@
         <sprite>sprites\scene11</sprite>
         <sprite>sprites\scene12</sprite>
         <sprite>sprites\scene13</sprite>
+        <sprite>sprites\scene110</sprite>
       </sprites>
     </sprites>
     <sprites name="start">
@@ -138,6 +139,24 @@
         <object>objects\obj_scene3</object>
         <object>objects\obj_scene2</object>
         <object>objects\obj_scene4</object>
+        <object>objects\obj_scene5</object>
+        <object>objects\obj_scene6</object>
+        <object>objects\obj_scene7</object>
+        <object>objects\obj_scene8</object>
+        <object>objects\obj_scene9</object>
+        <object>objects\obj_scene10</object>
+        <object>objects\obj_scene11</object>
+        <object>objects\obj_scene12</object>
+        <object>objects\obj_scene13</object>
+        <object>objects\obj_scene14</object>
+        <object>objects\obj_scene15</object>
+        <object>objects\obj_scene16</object>
+        <object>objects\obj_scene17</object>
+        <object>objects\obj_scene18</object>
+        <object>objects\obj_scene19</object>
+        <object>objects\obj_scene20</object>
+        <object>objects\obj_scene21</object>
+        <object>objects\obj_scene110</object>
       </objects>
     </objects>
   </objects>

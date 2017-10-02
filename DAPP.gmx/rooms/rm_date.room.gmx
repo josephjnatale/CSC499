@@ -57,8 +57,6 @@ global.box2="";</code>
     <instance objName="obj_girl" x="288" y="1568" name="inst_55965F36" locked="0" code="" scaleX="1.10000002384186" scaleY="1.00666666030884" colour="4294967295" rotation="0"/>
     <instance objName="obj_boy1" x="896" y="1440" name="inst_0A83CA85" locked="0" code="" scaleX="1.08905375003815" scaleY="1.01801204681396" colour="4294967295" rotation="0"/>
     <instance objName="playas" x="0" y="96" name="inst_F92A49DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fade" x="-1696" y="1664" name="inst_CF1EB464" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fade" x="2336" y="256" name="inst_F2A1DC98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
