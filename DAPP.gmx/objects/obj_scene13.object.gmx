@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.box1="Say you have no cluse, and head home.";
-global.box2="Say sorry excuse me im running late,#go talk to Ted, from basketball.";
+            <string>global.box1="Say you have no clue, and head home.";
+global.box2="Say sorry im running late,#go talk to Ted, from basketball.";
 image_speed=0.033333;
 </string>
           </argument>
