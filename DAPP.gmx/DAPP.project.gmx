@@ -76,6 +76,7 @@
     <script>scripts\scr_burger_in.gml</script>
     <script>scripts\scr_burger_out.gml</script>
     <script>scripts\scr_fade.gml</script>
+    <script>scripts\scale_canvas.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt</font>

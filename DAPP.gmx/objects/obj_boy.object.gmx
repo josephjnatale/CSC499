@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>if (x &gt; 768) visible = false;
+
 </string>
           </argument>
         </arguments>
