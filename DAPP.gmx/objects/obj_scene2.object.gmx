@@ -54,12 +54,12 @@ image_speed=0.033333;
 if(mouse_x&gt;40 &amp;&amp; mouse_x&lt;1040){
     //selected box 1
     if(mouse_y&gt;1450 &amp;&amp; mouse_y&lt;1650 &amp;&amp; !global.box1=""){
-        global.scene=3;
+     
         instance_create(0,0,obj_scene3);
         with(obj_scene2)instance_destroy();
         }
     else if( mouse_y&gt;1680 &amp;&amp; mouse_y&lt;1880 &amp;&amp; !global.box2=""){
-        global.scene=3;
+       
         instance_create(0,0,obj_scene3);
         with(obj_scene2)instance_destroy();
     }
