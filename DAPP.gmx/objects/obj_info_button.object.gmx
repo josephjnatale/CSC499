@@ -49,7 +49,18 @@
             <kind>1</kind>
             <string>global.burgerclick +=1;
 scr_burger_in();
+
 instance_create(0,0,obj_infographic);
+
+with(quiz_spawn) instance_destroy();
+with(global.qnum[| global.i]) instance_destroy();
+with(obj_correct) instance_destroy();
+with(obj_wrong) instance_destroy();
+with(obj_answer) instance_destroy();
+with(obj_not_ans) instance_destroy();
+with(quiz_spawn) instance_destroy();
+with(obj_arrow) instance_destroy();
+with(obj_quiz_bg) instance_destroy();
 </string>
           </argument>
         </arguments>

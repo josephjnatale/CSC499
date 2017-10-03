@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>100</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -50,6 +50,7 @@ done = false;
           <argument>
             <kind>1</kind>
             <string>// if i &gt; size of list then finish
+
 if(global.i &lt; ds_list_size(global.qnum))
     instance_create(x,y, global.qnum[| global.i]);
 

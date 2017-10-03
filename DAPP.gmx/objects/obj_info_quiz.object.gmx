@@ -48,8 +48,10 @@
           <argument>
             <kind>1</kind>
             <string>global.burgerclick +=1;
+instance_create(0,0,obj_quiz_bg);
 instance_create(room_width/2,room_height/20, quiz_spawn);
 scr_burger_in();
+with(obj_infographic) instance_destroy();
 </string>
           </argument>
         </arguments>

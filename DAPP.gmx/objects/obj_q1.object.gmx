@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>100</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>question = "Question Two?";
-answer[0] = "Jes";
-answer[1] = "Tree";
-answer[2] = "Poop";
-answer[3] = "Yes";
+            <string>question = "What leads to Dating Violence?";
+answer[0] = "Teasing";
+answer[1] = "Name Calling";
+answer[2] = "Being Ridiculed";
+answer[3] = "All of the Above";
 
 
 </string>
@@ -57,20 +57,20 @@ answer[3] = "Yes";
             <string>
 
 
-draw_set_colour(c_white);
+draw_set_colour(c_black);
 draw_set_font(fnt_quiz);
-draw_text(global.width/3,global.height/3, question);
+draw_text(room_width/9,room_height/9, question);
 
 
-draw_text(global.width/3 - 200, global.height/1.1, answer[0]);
-draw_text(global.width/3 - 200, global.height/1.1 + 200, answer[1]);
-draw_text(global.width/2 + 200, global.height/1.1, answer[2]);
-draw_text(global.width/2 + 200, global.height/1.1 + 200, answer[3]);
+draw_text(room_width/2 - 400, room_height/1.4, answer[0]);
+draw_text(room_width/2 - 400, room_height/1.4 + 300, answer[1]);
+draw_text(room_width/2 + 100, room_height/1.4, answer[2]);
+draw_text(room_width/2 + 100, room_height/1.4 + 300, answer[3]);
 
-instance_create(global.width/3 - 200, global.height/1.1, obj_not_ans);
-instance_create(global.width/3 - 200, global.height/1.1 + 200, obj_not_ans);
-instance_create(global.width/2 + 200, global.height/1.1, obj_not_ans);
-instance_create(global.width/2 + 200, global.height/1.1 + 200, obj_answer);
+instance_create(75, 1300, obj_not_ans);
+instance_create(75, 1586, obj_not_ans);
+instance_create(580, 1300, obj_not_ans);
+instance_create(580, 1586, obj_answer);
 
 
 </string>

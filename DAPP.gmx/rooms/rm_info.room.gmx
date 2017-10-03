@@ -6,13 +6,21 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>60</speed>
+  <speed>30</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>//keep track of burger menu
 global.burgerclick = 0;
 
+//keeps track of questions answered
+var j= 9;
+repeat(10)
+   {
+   global.quizarray[j] = false;
+   j -= 1;
+   }
+   
 //create questions and shuffle them
 global.qnum = ds_list_create();
 ds_list_add(global.qnum, obj_q0, obj_q1, obj_q2, obj_q3, obj_q4, obj_q5, obj_q6, obj_q7, obj_q8, obj_q9);

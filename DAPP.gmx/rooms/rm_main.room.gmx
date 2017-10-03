@@ -60,11 +60,11 @@ global.date_done = false;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_info_but" x="1225" y="499" name="inst_E0AD8356" locked="0" code="" scaleX="1.45500004291534" scaleY="1.49748742580414" colour="4294967295" rotation="0"/>
-    <instance objName="obj_balloons_but" x="1510" y="505" name="inst_92739DC8" locked="0" code="" scaleX="1.57788944244385" scaleY="1.48743712902069" colour="4294967295" rotation="0"/>
-    <instance objName="obj_date_but" x="1792" y="638" name="inst_FED411E3" locked="0" code="" scaleX="1.28643214702606" scaleY="1.46882796287537" colour="4294967295" rotation="0"/>
-    <instance objName="obj_esc_but" x="1372" y="789" name="inst_FF8BBCC7" locked="0" code="" scaleX="1.42750000953674" scaleY="1.41999995708466" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu_narr" x="1" y="1918" name="inst_5FFB5FAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_info_but" x="1247" y="497" name="inst_B3138E8A" locked="0" code="" scaleX="1.27135682106018" scaleY="1.20603013038635" colour="4294967295" rotation="0"/>
+    <instance objName="obj_balloons_but" x="1503" y="498" name="inst_BC82F148" locked="0" code="" scaleX="1.22613060474396" scaleY="1.20603013038635" colour="4294967295" rotation="0"/>
+    <instance objName="obj_date_but" x="1760" y="640" name="inst_080BF18A" locked="0" code="" scaleX="1.4099999666214" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_esc_but" x="1370" y="771" name="inst_5A95DF50" locked="0" code="" scaleX="1.22807013988495" scaleY="1.27999997138977" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

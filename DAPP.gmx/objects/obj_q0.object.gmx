@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>question = "Is this a question?";
-answer[0] = "No clue";
-answer[1] = "Nope";
-answer[2] = "Yes";
-answer[3] = "...";
+            <string>question = "What is Dating Abuse?";
+answer[0] = "A Controlling#   pattern of#negative behaviors";
+answer[1] = "Being too young#for a relationship";
+answer[2] = "A bad mood after#a long day";
+answer[3] = "The first stage#of Dating";
 
 
 </string>
@@ -56,21 +56,22 @@ answer[3] = "...";
             <kind>1</kind>
             <string>
 
-
-draw_set_colour(c_white);
+//set font 
+draw_set_colour(c_black);
 draw_set_font(fnt_quiz);
-draw_text(room_width/3,room_height/3, question);
+draw_text(room_width/8,room_height/9, question);
 
+//draw the questions
+draw_text(room_width/2 - 400, room_height/1.4 - 50, answer[0]);
+draw_text(room_width/2 - 400, room_height/1.4 + 300, answer[1]);
+draw_text(room_width/2 + 100, room_height/1.4, answer[2]);
+draw_text(room_width/2 + 100, room_height/1.4 + 300, answer[3]);
 
-draw_text(room_width/3 - 200, room_height/1.1, answer[0]);
-draw_text(room_width/3 - 200, room_height/1.1 + 200, answer[1]);
-draw_text(room_width/2 + 200, room_height/1.1, answer[2]);
-draw_text(room_width/2 + 200, room_height/1.1 + 200, answer[3]);
-
-instance_create(room_width/3 - 200, room_height/1.1, obj_not_ans);
-instance_create(room_width/3 - 200, room_height/1.1 + 200, obj_not_ans);
-instance_create(room_width/2 + 200, room_height/1.1, obj_answer);
-instance_create(room_width/2 + 200, room_height/1.1 + 200,obj_not_ans );
+//match each question with an answr box
+instance_create(75, 1300, obj_answer);
+instance_create(75, 1586, obj_not_ans);
+instance_create(580, 1300, obj_not_ans);
+instance_create(580, 1586,obj_not_ans );
 
 
 </string>
